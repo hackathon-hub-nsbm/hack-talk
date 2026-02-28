@@ -10,6 +10,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { registerParticipant } from "@/actions/firebaseActions";
 
 const batchOptions = [
+    "26.1",
+    "25.4",
     "25.3",
     "25.2",
     "25.1",

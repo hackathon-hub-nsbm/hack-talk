@@ -10,7 +10,7 @@ export const RegistrationSchema = z.object({
     .min(4, "Student ID is required")
     .regex(/^[a-zA-Z0-9\-/]+$/, "Please enter a valid student ID"),
   batch: z.enum(
-    ["25.3", "25.2", "25.1", "24.3", "24.2", "24.1", "23.2", "23.1", "22.2"],
+    ["26.1", "25.4", "25.3", "25.2", "25.1", "24.3", "24.2", "24.1", "23.2", "23.1", "22.2"],
     { message: "Please select a valid batch" },
   ),
   phone_number: z

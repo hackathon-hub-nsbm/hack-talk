@@ -41,10 +41,7 @@ const Footer = () => {
                     <Link
                         href="https://www.instagram.com/hackathonhub.nsbm/"
                         target="_blank"
-                        className="group flex items-center gap-2 px-4 py-2 rounded-lg 
-                     glass-panel border border-pink-500/20 
-                     hover:border-pink-400/50 hover:shadow-[0_0_15px_rgba(236,72,153,0.1)]
-                     transition-all duration-300"
+                        className="group flex items-center gap-2 px-4 py-2 rounded-lg glass-panel border border-pink-500/20 hover:border-pink-400/50 hover:shadow-[0_0_15px_rgba(236,72,153,0.1)] transition-all duration-300"
                     >
                         <IoLogoInstagram
                             className="text-pink-400 group-hover:scale-110 transition-transform"
@@ -58,10 +55,7 @@ const Footer = () => {
                     <Link
                         href="https://www.linkedin.com/company/hackathon-hub-nsbm/"
                         target="_blank"
-                        className="group flex items-center gap-2 px-4 py-2 rounded-lg 
-                     glass-panel border border-blue-500/20 
-                     hover:border-blue-400/50 hover:shadow-[0_0_15px_rgba(59,130,246,0.1)]
-                     transition-all duration-300"
+                        className="group flex items-center gap-2 px-4 py-2 rounded-lg glass-panel border border-blue-500/20 hover:border-blue-400/50 hover:shadow-[0_0_15px_rgba(59,130,246,0.1)] transition-all duration-300"
                     >
                         <FaLinkedin
                             className="text-blue-400 group-hover:scale-110 transition-transform"
@@ -75,10 +69,7 @@ const Footer = () => {
                     <Link
                         href="https://web.facebook.com/people/Hackathon-Hub/61556983036529/"
                         target="_blank"
-                        className="group flex items-center gap-2 px-4 py-2 rounded-lg 
-                     glass-panel border border-blue-600/20 
-                     hover:border-blue-500/50 hover:shadow-[0_0_15px_rgba(37,99,235,0.1)]
-                     transition-all duration-300"
+                        className="group flex items-center gap-2 px-4 py-2 rounded-lg glass-panel border border-blue-600/20 hover:border-blue-500/50 hover:shadow-[0_0_15px_rgba(37,99,235,0.1)] transition-all duration-300"
                     >
                         <FaFacebookSquare
                             className="text-blue-400 group-hover:scale-110 transition-transform"
@@ -92,10 +83,7 @@ const Footer = () => {
                     <Link
                         href="https://github.com/hackathon-hub-nsbm/"
                         target="_blank"
-                        className="group flex items-center gap-2 px-4 py-2 rounded-lg 
-                     glass-panel border border-gray-500/20 
-                     hover:border-gray-400/50 hover:shadow-[0_0_15px_rgba(156,163,175,0.1)]
-                     transition-all duration-300"
+                        className="group flex items-center gap-2 px-4 py-2 rounded-lg glass-panel border border-gray-500/20 hover:border-gray-400/50 hover:shadow-[0_0_15px_rgba(156,163,175,0.1)] transition-all duration-300"
                     >
                         <FaGithub
                             className="text-gray-300 group-hover:scale-110 transition-transform"
