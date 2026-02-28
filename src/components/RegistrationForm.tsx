@@ -212,13 +212,25 @@ const RegistrationForm = () => {
                 {/* Status message */}
                 {submitMessage.type && (
                     <div
-                        className={`mt-6 text-center p-4 rounded-lg font-(--font-space-mono) tracking-wider text-sm
-                       border animate-fade-in-up ${submitMessage.type === "success"
-                                ? "bg-emerald-900/20 border-emerald-500/50 text-emerald-400"
-                                : "bg-red-900/20 border-red-500/50 text-red-400"
+                        className={`mt-6 text-center p-4 rounded-lg font-(--font-space-mono) tracking-wider text-sm border animate-fade-in-up ${submitMessage.type === "success"
+                            ? "bg-emerald-900/20 border-emerald-500/50 text-emerald-400"
+                            : "bg-red-900/20 border-red-500/50 text-red-400"
                             }`}
                     >
                         {submitMessage.message}
+                        {submitMessage.type === "success" && (
+                            <div className="mt-4">
+                                <p className="text-gray-400 text-xs mb-2">Join the WhatsApp group for updates:</p>
+                                <a
+                                    href="https://chat.whatsapp.com/HpB0L74ovBCBX4XA4hC3Hq"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-green-600/20 border border-green-500/50 text-green-400 hover:bg-green-600/30 hover:border-green-400 transition-all duration-300 text-sm font-(--font-space-mono)"
+                                >
+                                    Join WhatsApp Group &rarr;
+                                </a>
+                            </div>
+                        )}
                     </div>
                 )}
             </form>
