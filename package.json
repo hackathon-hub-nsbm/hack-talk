@@ -7,16 +7,19 @@
     "build": "bun --bun next build",
     "start": "bun --bun next start",
     "lint": "eslint",
-    "export": "bun scripts/export.ts"
+    "export": "bun scripts/export.ts",
+    "dev:vinext": "vite dev --port 3001",
+    "build:vinext": "vite build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "firebase": "^12.10.0",
     "next": "16.1.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-hook-form": "^7.71.2",
     "react-icons": "^5.5.0",
+    "vinext": "^0.0.18",
     "zod": "^4.3.6"
   },
   "devDependencies": {
@@ -24,11 +27,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-rsc": "^0.5.21",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "react-server-dom-webpack": "^19.2.4",
     "tailwindcss": "^4",
     "typescript": "^5",
+    "vite": "^7.3.1",
     "xlsx": "^0.18.5"
   },
   "ignoreScripts": [
@@ -38,5 +44,6 @@
   "trustedDependencies": [
     "sharp",
     "unrs-resolver"
-  ]
+  ],
+  "type": "module"
 }
