@@ -8,7 +8,7 @@ export async function registerParticipant(
   data: RegistrationType,
 ): Promise<RegistrationType> {
   try {
-    const participantsRef = collection(db, "hacktalk-participants");
+    const participantsRef = collection(db, "test");
 
     // Check if email already registered
     const q = query(participantsRef, where("email", "==", data.email));
